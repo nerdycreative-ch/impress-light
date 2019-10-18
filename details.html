@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>impresslight | Contact</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Content/style.css">
+</head>
+<body id="details-page">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar">
+                        <a href="/index.html"><img class="navbar-brand pull-right" src="Content/images/logo.svg"></a>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="display: none;">
+                            <button class="btn" type="submit"><img src="Content/icons/icon-search@2x.png"></button>
+                            <a href="#"><img src="Content/icons/icon-shop@2x.png"></a>
+                            <a href="#"><img src="Content/icons/icon-menu@2x.png"></a>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="product-details">
+        <div class="container">
+            <p class="path-to-here"><a href="index.html">Home</a> > <a href="#">Night & Day</a></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Content/images/img@2x.png" id="currentImg" class="img-fluid" alt="Lamp front">
+                    <ul class="change-img">
+                        <li><img src="Content/images/img_2@2x.png" onClick="showImage('Content/images/img_2@2x.png', 'Lamp');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp change"></li>
+                        <li><img src="Content/images/img_3@2x.png" onClick="showImage('Content/images/img_3@2x.png', 'lamp2');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp 2 change"></li>
+                        <li><img src="Content/images/img@2x.png" onClick="showImage('Content/images/img@2x.png', 'lamp3');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp 3 change"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 details-text">
+                    <h1>Night & day</h1>
+                    <h2>CHF 95.-</h2>
+                    <a href="#" class="btn">Buy now</a>
+                    <button type="submit" class="btn btn-transparent">Add to cart</button>
+                    <p class="product-description">
+                        Lorem ipsum dolor sit amet, pri quando laoreet interpretaris eu, dolor commodo in his, 
+                        cu pri posse patrioque. Summo causae officiis eos id, minim corpora pro id. Te doming 
+                        reprimique quo. Dico doctus cu nam, per option mediocrem an.
+                    </p>
+                    <p>Specifications</p>
+                    <ul class="specifications dashed">
+                        <li>Cuts energy costs by up to 85%</li>
+                        <li>Warm Light 2700k</li>
+                        <li>Instant on</li>
+                        <li>Compantible with a wide range of dimmers</li>
+                        <li>No toxis materials</li>
+                    </ul>
+                </div><!-- .col-md-6 -->
+            </div><!-- row -->
+        </div><!-- .container -->
+    </section><!-- #product-details -->
+
+    <section id="related-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">    
+                    <p>Related products</p>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 25.00 - 45.00</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img_3@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 95.-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img_2@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 50.00 - 88.00</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img_3@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 95.-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 95.-</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img_2@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 50.00 - 88.00</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="thumbContainer">
+                                    <img class="img-explore" src="Content/images/img_3@2x.png">
+                                    <div class="projectInfo">
+                                        <p>Night & Day</p>
+                                        <p>CHF 95.-</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><!-- .swiper-wrapper -->
+                    </div><!-- .swiper-container -->
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+
+    <section id="full-footer">
+        <div class="container-fluid">
+            <div class="row products-row">
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p>Products</p>
+                    <p>Services</p>
+                    <p>News</p>
+                    <p>Contact</p>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Impressum</p>
+                </div>
+                <div class="col-md-6 col-lg-5 offset-lg-1">
+                    <p>Subscribe to our newsletter</p>
+                    <input type="email" class="btn-block email-input" placeholder="Type your email address"><span><i class="icon-ib-profile"></i></span>
+                </div>
+            </div><!-- .row -->
+            <hr />
+            <footer>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 logo-bottom">
+                        <img src="Content/images/logo.svg">
+                    </div>
+                    <div class="col-md-6 col-lg-6 pull-right">
+                        <div class="follow-links">
+                            <p href="#">Follow us</p>
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">Instagram</a>
+                            <p>Copyright &copy; 2019, Impresslight. All right reserved</p>
+                        </div>
+                    </div>
+                </div><!-- .row -->
+            </footer>
+        </div><!-- .container-fluid -->
+    </section><!-- section .full-footer -->
+    <script src="scripts/site.js"></script>
+    <script type="text/javascript">
+        // Change image on thumbnail click 
+        function showImage(imgPath, imgText) {
+            var curImage = document.getElementById('currentImg');
+            
+            curImage.src = imgPath; //change img path
+            curImage.alt = imgText; //change img alt
+        }
+
+        // Swipe elements
+        var swiper = new Swiper(".swiper-container", {
+            loopedSlides: 8,
+            loop: false,
+            slidesPerView: "auto",
+            freeMode: true,
+            mousewheel: {
+                releaseOnEdges: true,
+            },
+        });
+
+        var thumb = document.querySelectorAll(".thumbContainer");
+
+        thumb.forEach(function(image, index) {
+            var delay = index * 90;
+            image.classList.add("fadeInSlide");
+            image.style.animationDelay = delay + "ms";
+        });
+    </script>
+</body>
+</html>
