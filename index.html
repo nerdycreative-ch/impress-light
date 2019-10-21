@@ -4,7 +4,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Content/style.css">
 	<title>impresslight</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body id="home-page">
@@ -25,14 +33,49 @@
             </div>
         </div>
     </header>
-    <section id="carousel">
-        <img class="main-img" src="Content/images/main-img@2x.png">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1 class="header-text">Minimalist lamp for your office<span class="orange">.</span></h1>
-                    <h3>Power of imagination works on style and comfort. </h3>
+    <section id="carousel" class="carousel slide" data-ride="carousel">
+        <hr />
+        <ol class="carousel-indicators carousel-indicators-numbers">
+            <li data-target="#carousel" data-slide-to="0" class="active">1</li>
+            <li data-target="#carousel" data-slide-to="1">2</li>
+            <li data-target="#carousel" data-slide-to="2">3</li>
+            <li>3</li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="main-img" src="Content/images/main-img@2x.png">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 carousel-caption">
+                            <h1 class="header-text">Minimalist lamp for your office<span class="orange">.</span></h1>
+                            <h3>Power of imagination works on style and comfort.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="main-img" src="Content/images/img-about@2x.png">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 carousel-caption">
+                            <h1 class="header-text">Minimalist lamp for you<span class="orange">.</span></h1>
+                            <h3>Power of imagination works on style and comfort.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="main-img" src="Content/images/main-img@2x.png">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 carousel-caption">
+                            <h1 class="header-text">Minimalist lamp<span class="orange">.</span></h1>
+                            <h3>Power of imagination works on style and comfort.</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,29 +133,31 @@
                 </div>  
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_4@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
+                    <p>Circa Luminaire</p>
+                    <p>CHF 50.00 - 88.00</p>
                 </div>  
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_3@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
+                    <span>New</span>
+                    <p>Dining Room</p>
+                    <p>CHF 250.-</p>
                 </div>  
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_2@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
+                    <p>RAB Lighting</p>
+                    <p>CHF 25.00 - 45.00</p>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_3@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
+                    <span>New</span>
+                    <p>Dining Room</p>
+                    <p>CHF 250.-</p>
                 </div>  
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_2@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
-                </div>  
+                    <p>RAB Lighting</p>
+                    <p>CHF 25.00 - 45.00</p>
+                </div>
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img@2x.png">
                     <p>Night & Day</p>
@@ -120,10 +165,12 @@
                 </div>  
                 <div class="col-6 col-md-4 col-lg-3">
                     <img class="img-explore" src="Content/images/img_4@2x.png">
-                    <p>Night & Day</p>
-                    <p>CHF 95.-</p>
+                    <p>Circa Luminaire</p>
+                    <p>CHF 50.00 - 88.00</p>
+                </div>  
+                <div class="col-md-12" style="display: flex;">
+                    <button class="btn load-more-btn orange">Load more<img src="Content/icons/icon-plus@2x.png"></button>
                 </div>
-                <button class="btn load-more-btn orange">Load more<img src="Content/icons/icon-plus@2x.png"></button>
             </div><!-- .row -->
         </div><!-- .container-fluid -->
     </section><!-- #explore-section -->
@@ -167,4 +214,7 @@
         </div><!-- .container-fluid -->
     </section><!-- section .full-footer -->
 </body>
+<script type="text/javascript">
+    $('.carousel').carousel();
+</script>
 </html>

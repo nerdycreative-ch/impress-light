@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>impresslight | Contact</title>
+	<title>impresslight | Details</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -35,9 +35,9 @@
                 <div class="col-md-6">
                     <img src="Content/images/img@2x.png" id="currentImg" class="img-fluid" alt="Lamp front">
                     <ul class="change-img">
-                        <li><img src="Content/images/img_2@2x.png" onClick="showImage('Content/images/img_2@2x.png', 'Lamp');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp change"></li>
-                        <li><img src="Content/images/img_3@2x.png" onClick="showImage('Content/images/img_3@2x.png', 'lamp2');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp 2 change"></li>
-                        <li><img src="Content/images/img@2x.png" onClick="showImage('Content/images/img@2x.png', 'lamp3');" class="img-thumbnail" data-pin-nopin="true" alt="Lamp 3 change"></li>
+                        <li><img src="Content/images/img_2@2x.png" onClick="showImage('Content/images/img_2@2x.png', 'Lamp')" class="img-thumbnail" alt="Lamp change"></li>
+                        <li><img src="Content/images/img_3@2x.png" onClick="showImage('Content/images/img_3@2x.png', 'lamp2')" class="img-thumbnail" alt="Lamp 2 change"></li>
+                        <li><img src="Content/images/img@2x.png" onClick="showImage('Content/images/img@2x.png', 'lamp3')" class="img-thumbnail" alt="Lamp 3 change"></li>
                     </ul>
                 </div>
                 <div class="col-md-6 details-text">
@@ -178,34 +178,8 @@
             </footer>
         </div><!-- .container-fluid -->
     </section><!-- section .full-footer -->
-    <script src="scripts/site.js"></script>
     <script type="text/javascript">
-        // Change image on thumbnail click 
-        function showImage(imgPath, imgText) {
-            var curImage = document.getElementById('currentImg');
-            
-            curImage.src = imgPath; //change img path
-            curImage.alt = imgText; //change img alt
-        }
-
-        // Swipe elements
-        var swiper = new Swiper(".swiper-container", {
-            loopedSlides: 8,
-            loop: false,
-            slidesPerView: "auto",
-            freeMode: true,
-            mousewheel: {
-                releaseOnEdges: true,
-            },
-        });
-
-        var thumb = document.querySelectorAll(".thumbContainer");
-
-        thumb.forEach(function(image, index) {
-            var delay = index * 90;
-            image.classList.add("fadeInSlide");
-            image.style.animationDelay = delay + "ms";
-        });
     </script>
 </body>
+<script src="scripts/site.js"></script>
 </html>
